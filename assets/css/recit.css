@@ -437,13 +437,14 @@ body {
     margin-top: 50px;
     padding-top: 50px;
     background-color: #1A3A5F;
-    color: #ffffff;
+    
 }
 .start_trial h3 {
     margin-bottom: 30px;
     font-weight: 600;
     font-size: 34px;
     text-align: center;
+    color: #ffffff;
 }
 .btn--white {
     color: #2A96FA;
@@ -456,4 +457,142 @@ body {
 }
 .btn--margin {
     margin-top: 20px;
+}
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer {
+    text-align: center;
+}
+
+
+
+.footer__container a {
+    list-style: none;
+    color: #112B62;
+}
+
+.footer__container a:hover {
+    color: #2A96FA
+}
+
+.footer-recit {
+    width: 100px;
+  
+}
+
+.footer__list li:not(:first-child) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.footer__list li:not(:first-child):hover {
+    color: #2A96FA;
+}
+
+.footer__container img {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+
+}
+.image--container {
+    display: inline-block;
+    position: relative;
+}
+
+.phone-container {
+    display: inline-block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 18px;
+}
+
+
+
+.image--container-two {
+    display: inline-block;
+    position: relative;
+}
+
+.mail-container {
+    display: inline-block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 18px;
+}
+
+.image--container-three {
+    display: inline-block;
+    position: relative;
+}
+
+.ig-container {
+    display: inline-block;
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 18px;
+}
+
+@media (max-width: 695px) {
+    .phone-container {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .mail-container {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .ig-container {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+}
+
+.insta-text {
+    margin-top: 10px;
+}
+
+.footer__list a {
+    list-style: none;
+    text-decoration: none;
+    color: #112B62;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+
+@media (max-width: 695px) {
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 29%;
+    }
+
+    .footer__item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .footer__container {
+        margin-right: 38%;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__container {
+        margin-right: 45%;
+    }
 }
