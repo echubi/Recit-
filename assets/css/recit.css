@@ -242,7 +242,7 @@ body {
     font-size: 40px;
 }
 
-.download img {
+.main {
     padding: 0px;
     margin: 0px;
     width: 40%;
@@ -250,7 +250,7 @@ body {
 }
 
 .download_text img {
-    width: 20%;
+    width: 15%;
     margin-top: 10px;
 }
 /*
